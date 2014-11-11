@@ -1,46 +1,17 @@
-========================
-BUILD OUTPUT DESCRIPTION
-========================
+Steps to share XAMPP project on 
+           Dropbox:
 
+    1)   You should have Dropbox installed.
+    2)   You should have installed XAMPP.
+    3)   Copy your XAMPP project put it in
+           Dropbox and share the project folder
+           using Dropbox web portal.
+    4)   Enter the path in the textbox 
+           as given "C:/xampp"
+           not as "C:\xampp"
+    5)   Once you click Done you will get a 
+           command prompt window,
+           Enter Dropbox path till /htdocs
+           ex: C:/users/name/Dropbox/Sharing/htdocs  
 
-When you build an Java application project that has a main class, the IDE
-automatically copies all of the JAR
-files on the projects classpath to your projects 
-dist/lib folder. The IDE
-also adds each of the JAR files to the Class-Path element in the application
-JAR files manifest file (MANIFEST.MF).
-
-
-To run the project from the command line, go to the dist folder and
-type the following:
-
-java -jar "Dropbox-_Xampp.jar" 
-
-
-To distribute this project, zip up the dist folder (including the lib folder)
-and distribute the ZIP file.
-
-
-Notes:
-
-
-* If two JAR files on the project classpath have the same name, only the first
-JAR file is copied to the lib folder.
-
-
-* Only JAR files are copied to the lib folder.
-If the classpath contains other types of files or folders, these files (folders)
-are not copied.
-
-
-* If a library on the projects classpath also has a Class-Path element
-specified in the manifest,the content of the Class-Path element has to be on
-the projects 
-runtime path.
-
-
-* To set a main class in a standard Java project, right-click the project node
-in the Projects window and choose Properties.
- Then click Run and enter the
-class name in the Main Class field. Alternatively, you can manually type the
-class name in the manifest Main-Class element.
+Your XAMPP files will be synced into dropbox,
